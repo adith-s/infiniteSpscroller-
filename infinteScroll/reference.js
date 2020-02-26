@@ -104,3 +104,18 @@ var InfiniteScroller = (function () {
       }
     };
   }());
+
+  /**
+   * function debounce(fn, d) {
+        let timer;
+        return  function(){
+            var context = this,args = arguments;
+            if(timer){
+                clearTimeout(timer);
+            }
+            timer = setTimeout(function(){
+                fn.apply(context,args);
+            },d);
+        }        
+    }s
+   */
